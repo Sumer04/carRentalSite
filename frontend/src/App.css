@@ -1,0 +1,167 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box ;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+::before, ::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: yellow;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: grey;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* @media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
+
+
+/* ---------------Home Page => Hero Section------------------ */
+/* For mobile */
+@media (max-width: 500px) {
+  .displayHidden{
+    display: none;
+  }
+  .flexColll {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .heroChildOne{
+    text-align: center;
+  }
+  .centerJustify{
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* --------SearchBar------------- */
+  .SearchBar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   
+  }
+  .Pickup{
+     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  /*-----How It Works----------*/
+   .work{
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+   }
+   .imageClass{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+   }
+   .imageSize{
+    flex-direction: row;
+    width:20px;
+    
+    margin-bottom: 10px;
+   }
+   .font-Size
+   {
+    font-size: medium;
+
+   }
+   /*----------Why Choose Us--------------*/
+  .Chooseus{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+    
+  .imageSizee{
+    width: 350PX;
+  }
+
+  .offer{
+    font-size: small;
+  }
+  .font-size1{
+    flex-direction: column;
+    font-size: medium;
+    width: 210px;
+  }
+
+
+  /* Popular Rental Car */
+.text{
+  font-size: medium;
+}
+
+.carcomponent{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.BTN{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+
+/* footer */
+.Ending{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.footer{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.footerrr{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* For Tab */
+
+@media (max-width: 810px) {
+  .heroChildOne{
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .displayHidden{
+    display: none;
+  }
+}
+}
